@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
-html{
+html {
 	height: 100%;
 }
+
 body {
 	height: 100%;
 	margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-	background: rgb(2,0,36);
-	background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background: rgb(2, 0, 36);
+	background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
 
 caption {
@@ -21,9 +21,9 @@ caption {
 
 .horari {
 	text-align: center;
-	overflow: hidden;
 	width: 80%;
 	margin: 0 auto;
+	overflow: hidden;
 	display: table;
 	padding: 0 0 8em 0;
 	font-family: 'Roboto Mono', monospace;
@@ -77,26 +77,27 @@ th {
 	font-weight: 700;
 }
 
-.horari td:hover {
-	background-color: #FFF842 !important;
-	color: #403E10;
-	font-weight: bold;
-	box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
-	transform: translate3d(6px, -6px, 0);
+.horari td:hover,
+th:hover {
+	background-color: #fc6998 !important;
+	text-decoration: underline solid;
+	color: #3fe2ea;
+	box-shadow: #fa8fb1 -1px 1px, #fa8fb1 -2px 2px, #fa8fb1 -3px 3px, #fa8fb1 -4px 4px, #fa8fb1 -5px 5px, #fa8fb1 -6px 6px, #fa8fb1 -7px 7px, #fa8fb1 -8px 8px;
+	transform: translate3d(8px, -8px, 0);
 	transition-delay: 0s;
 	transition-duration: 0.7s;
 	transition-property: all;
 	transition-timing-function: line;
 }
 
-.horari th:hover {
-	background-color: #FFF842 !important;
+/* .horari th:hover {
+	background-color: #fc6998 !important;
 	color: #403E10;
 	font-weight: bold;
-	box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
-	transform: translate3d(6px, -6px, 0);
+	box-shadow: #fa8fb1 -1px 1px, #fa8fb1 -2px 2px, #fa8fb1 -3px 3px, #fa8fb1 -4px 4px, #fa8fb1 -5px 5px, #fa8fb1 -6px 6px, #fa8fb1 -7px 7px, #fa8fb1 -8px 8px;
+	transform: translate3d(8px, -8px, 0);
 	transition-delay: 0s;
 	transition-duration: 0.7s;
 	transition-property: all;
 	transition-timing-function: line;
-}
+} */
