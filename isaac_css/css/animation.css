@@ -1,0 +1,29 @@
+.esquerra {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    animation-name: animacio-Isaac;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.dreta{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    float: right;
+    position: relative;
+    animation-name: animacio-dreta;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacio-Isaac {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}

@@ -20,25 +20,20 @@ caption {
 }
 
 .horari {
-	text-align: center;
 	width: 80%;
+	text-align: center;
 	margin: 0 auto;
-	overflow: hidden;
+	overflow: scroll;
 	display: table;
 	padding: 0 0 8em 0;
 	font-family: 'Roboto Mono', monospace;
 }
 
-.horari td {
-	font-weight: normal;
-	font-size: 1em;
-}
-
-#titolHora {
+/* ? PINTAR CADA ASSIFGNATURA D'UN COLOR ? */
+.titolHora {
 	background-color: #464a52;
 	color: white;
 }
-
 .dies {
 	background-color: #666666;
 	color: #FFFFFF;
@@ -75,29 +70,21 @@ th {
 	padding-left: 2%;
 	padding-right: 2%;
 	font-weight: 700;
+	font-weight: normal;
+	font-size: 1em;
 }
 
 .horari td:hover,
 th:hover {
-	background-color: #fc6998 !important;
-	text-decoration: underline solid;
-	color: #3fe2ea;
-	box-shadow: #fa8fb1 -1px 1px, #fa8fb1 -2px 2px, #fa8fb1 -3px 3px, #fa8fb1 -4px 4px, #fa8fb1 -5px 5px, #fa8fb1 -6px 6px, #fa8fb1 -7px 7px, #fa8fb1 -8px 8px;
+	background-color: #FF6600;
+	text-decoration:solid;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold;
+	box-shadow: #FF7519 -1px 1px, #FF8533 -2px 2px, #FF944D -3px 3px, #FFA366 -4px 4px, #FFB380 -5px 5px,#FFC299  -6px 6px, #FFD1B3 -7px 7px,#FFE0CC  -8px 8px;
 	transform: translate3d(8px, -8px, 0);
 	transition-delay: 0s;
 	transition-duration: 0.7s;
 	transition-property: all;
 	transition-timing-function: line;
 }
-
-/* .horari th:hover {
-	background-color: #fc6998 !important;
-	color: #403E10;
-	font-weight: bold;
-	box-shadow: #fa8fb1 -1px 1px, #fa8fb1 -2px 2px, #fa8fb1 -3px 3px, #fa8fb1 -4px 4px, #fa8fb1 -5px 5px, #fa8fb1 -6px 6px, #fa8fb1 -7px 7px, #fa8fb1 -8px 8px;
-	transform: translate3d(8px, -8px, 0);
-	transition-delay: 0s;
-	transition-duration: 0.7s;
-	transition-property: all;
-	transition-timing-function: line;
-} */
